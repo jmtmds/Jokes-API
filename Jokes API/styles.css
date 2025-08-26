@@ -1,0 +1,128 @@
+body {
+    background: #aad8db;
+}
+
+.signal {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 10px;
+    height: 5px;
+    background: #333533;
+    animation-name: kblink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.antenna {
+    border: 4px solid #333533;
+    border-bottom: none;
+    width: 20px;
+    height: 70px;
+    margin-left: 25px;
+    margin-bottom: -7px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #6F5D4B;
+    box-shadow: inset -9px 0px #625142;
+    position: relative;
+}
+
+.gadget {
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -60%);
+}
+
+.legs {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    margin-left: 30px;
+    margin-top: -1px;
+}
+
+.signal:nth-child(2) {
+    top: -35px;
+    width: 20px;
+    animation-delay: 0.5s;
+}
+
+@keyframes kblink {
+    50% { opacity: 0; }
+}
+
+.head {
+    margin: auto;
+    width: 140px;
+    height: 30px;
+    border: 5px solid #333533;
+    border-bottom: none;
+    border-radius: 80px 80px 0px 0px / 35px 35px 30px 30px;
+    margin-bottom: -15px;
+    background: #6F5D4B;
+    box-sizing: border-box;
+    box-shadow: inset -13px 0px #625142;
+}
+
+.body {
+    width: 350px;
+    height: 350px;
+    border: 5px solid #333533;
+    border-radius: 30px 30px 10px 10px / 35px 35px 15px 15px;
+    background: #FDCA6A;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: inset -8px -7px #F8A242;
+}
+
+.display {
+    border: 5px solid #333533;
+    margin-top: 10px;
+    border-radius: 15px 15px 30px 0;
+    height: 150px;
+    padding: 5px;
+    background: grey;
+    font-family: "VT323";
+    font-size: 22px;
+    color: lightgrey;
+    text-align: center;
+    box-shadow: inset -3px 0px #737070;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    /* padding-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    border-radius: 5px;
+    border: 4px solid #333533;
+    margin-top: 50px;
+    background: #DD3747;
+    font-family: "Share Tech Mono";
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #333533;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.leg {
+    border: 4px solid #333533;
+    border-top: none;
+    width: 50px;
+    height: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #6F5D4B;
+    box-shadow: inset -9px 0px #625142;
+}
+
+.hidden {
+    display: none;
+}
