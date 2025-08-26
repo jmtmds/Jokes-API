@@ -1,13 +1,15 @@
-# 📻 Rádio de Piadas (Joker API)
+# 📻 Rádio de Piadas
 
 > Um projeto front-end simples e divertido que exibe um **rádio de piadas** com estilo retrô que conta piadas aleatórias em Inglês, consumindo uma API pública.
 
 ### Prévia do Projeto
 
 <p align="center">
-  <img src="Jokes%20API/assets/Buscando.png" alt="Rádio de Piadas buscando uma piada" width="auto" height="250px" style="display: inline-block; margin: 0 10px;">
-  <img src="Jokes%20API/assets/Piada.png" alt="Rádio de Piadas exibindo uma piada" width="auto" height="250px" style="display: inline-block; margin: 0 10px;">
+  <img src="Jokes%20API/assets/Buscando.png" alt="Rádio de Piadas buscando uma piada" width="auto" height="350px" style="display: inline-block; margin: 0 10px;">
+  <img src="Jokes%20API/assets/Piada.png" alt="Rádio de Piadas exibindo uma piada" width="auto" height="350px" style="display: inline-block; margin: 0 10px;">
 </p>
+
+[Clique para ver o projeto - (Deploy to Netlify).](https://jm-joker-api.netlify.app/)
 
 ---
 
