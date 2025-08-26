@@ -40,14 +40,14 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!response.ok) {
                 throw new Error('A piada se perdeu no caminho!');
             }
-            
+
             const data = await response.json();
             updateDisplay(data.joke);
 
         } catch (error) {
             console.error('Erro ao buscar a piada:', error);
             updateDisplay('Piada ruim. Tente de novo mais tarde.');
-        
+
         } finally {
             showProcessing(false);
         }
